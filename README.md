@@ -1,4 +1,4 @@
-#Before You Begin
+# Before You Begin
 Created a new repository for this project called sqlalchemy-challenge. 
 Inside your local Git repository, created a directory for this Challenge. Used a folder name that corresponds to the Challenge, as SurfsUp.
 Added your Jupyter notebook and app.py to this folder. They contain the main scripts to run for analysis. Also added the Resources folder,
@@ -12,7 +12,7 @@ Use the SQLAlchemy create_engine() function to connect to your SQLite database.
 Use the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.
 Link Python to the database by creating a SQLAlchemy session.
 
-#Precipitation Analysis
+# Precipitation Analysis
 Find the most recent date in the dataset.
 Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data
 Select only the "date" and "prcp" values.
@@ -21,7 +21,7 @@ Sort the DataFrame values by "date".
 Plot the results by using the DataFrame plot method
 Use Pandas to print the summary statistics for the precipitation data.
 
-#Station Analysis
+# Station Analysis
 Design a query to calculate the total number of stations in the dataset.
 Design a query to find the most-active stations (that is, the stations that have the most rows). To do so, complete the following steps:
 List the stations and observation counts in descending order.
@@ -32,7 +32,7 @@ Filter by the station that has the greatest number of observations.
 Query the previous 12 months of TOBS data for that station.
 Plot the results as a histogram with bins=12
 
-#Part 2: Design Your Climate App
+# Part 2: Design Your Climate App
 /
 Start at the homepage.
 List all the available routes.
@@ -49,7 +49,7 @@ Return a JSON list of the minimum temperature, the average temperature, and the 
 For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
 For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 
-#Hints and help
+# Hints and help
 
 Join the station and measurement tables for some of the queries.
 Use the Flask jsonify function to convert your API data to a valid JSON response object.
