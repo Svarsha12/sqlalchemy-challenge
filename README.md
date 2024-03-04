@@ -2,7 +2,7 @@
 Created a new repository for this project called sqlalchemy-challenge. 
 Inside your local Git repository, created a directory for this Challenge. Used a folder name that corresponds to the Challenge, as SurfsUp.
 Added your Jupyter notebook and app.py to this folder. They contain the main scripts to run for analysis. Also added the Resources folder,
-which contains the data files you will be using for this challenge.
+which contains the data files you will be using for this challenge. My climate analyisis jupyter folder name is climate.ipynb.
 
 # Instructions
 #Part 1: Analyze and Explore the Climate Data
@@ -47,7 +47,7 @@ Return a JSON list of temperature observations for the previous year.
 /api/v1.0/<start> and /api/v1.0/<start>/<end>
 Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
 For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
-For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
+For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive. My climate app name is app.py.
 
 # Hints and help
 
